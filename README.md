@@ -1,16 +1,20 @@
 ## 🍴 MiAppRecetas
 
-MiAppRecetas es una aplicación móvil desarrollada con React Native + Expo + API TheMealDB, que permite descubrir, consultar y guardar recetas de manera sencilla y rápida.
+MiAppRecetas es una aplicación móvil desarrollada con React Native, Expo, Firestore Database y la API TheMealDB, que permite descubrir, consultar y gestionar recetas de manera sencilla y rápida.
 
 ## Características
 
--Explorar por categoría: Lista de categorías.
+-Explorar por categoría: Muestra una lista de categorías obtenidas desde la API TheMealDB.
 
--Receta: Lista de recetas según la categoría.
+-Recetas por categoría: Permite visualizar las recetas correspondientes a cada categoría seleccionada.
 
--Detalle de receta: Ingredientes, pasos de preparación e incluso un video de YouTube integrado.
+-Crear receta: Funcionalidad que permite registrar nuevas recetas personalizadas con los campos: título, ingredientes, instrucciones y URL de imagen.
 
--Favoritos: Agrega o elimina recetas de favoritos para acceder fácilmente más tarde.
+-Ver recetas: Muestra todas las recetas creadas por el usuario y almacenadas en Firestore. Desde esta sección es posible editar o eliminar recetas.
+
+-Detalle de receta: Presenta información completa de la receta, incluyendo ingredientes, pasos de preparación y un video de YouTube integrado.
+
+-Favoritos: Permite agregar o eliminar recetas de favoritos para acceder fácilmente a ellas más adelante.
 
 ## Requisitos Previos
 
@@ -32,13 +36,13 @@ npm -v
 1. **Clona el repositorio:**
 
 ```bash
-https://github.com/DerlyYanneth/parcial1.git
+[https://github.com/DerlyYanneth/AppRecetas]
 
 ```
 2. Ingresa a la carpeta del proyecto:
 
 ```bash
-cd parcial1\my-app
+cd AppRecetas
 
 ```
 3. Instala dependencias principales:
