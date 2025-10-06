@@ -36,7 +36,7 @@ npm -v
 1. **Clona el repositorio:**
 
 ```bash
-[https://github.com/DerlyYanneth/AppRecetas]
+(https://github.com/DerlyYanneth/AppRecetas)
 
 ```
 2. Ingresa a la carpeta del proyecto:
